@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 50%;
+}
+
+.hero-header {
+  font-size: 5.5rem;
+  margin-bottom: 1rem;
+}
+
+.motto {
+  font-size: 2rem;
+}
+
+.hero-about {
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+.registration-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+  width: 15rem;
+}
+
+.registration-link {
+  text-decoration: none;
+  background-color: #68c2ed;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.registration-sen {
+  font-size: 0.75rem;
+  color: grey;
+  text-align: center;
+}
